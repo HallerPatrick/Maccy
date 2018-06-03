@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3E989C20C41CA600C34746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E989B20C41CA600C34746 /* AppDelegate.swift */; };
+		AB3E989E20C41CA600C34746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E989D20C41CA600C34746 /* ViewController.swift */; };
+		AB3E98A020C41CA600C34746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3E989F20C41CA600C34746 /* Assets.xcassets */; };
+		AB3E98A320C41CA600C34746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3E98A120C41CA600C34746 /* Main.storyboard */; };
+		AB3E98AF20C41CA600C34746 /* Time_Good_WastedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E98AE20C41CA600C34746 /* Time_Good_WastedTests.swift */; };
+		AB3E98BA20C41CA600C34746 /* Time_Good_WastedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E98B920C41CA600C34746 /* Time_Good_WastedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3E98AB20C41CA600C34746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3E989020C41CA500C34746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3E989720C41CA600C34746;
+			remoteInfo = "Time Good Wasted";
+		};
+		AB3E98B620C41CA600C34746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB3E989020C41CA500C34746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3E989720C41CA600C34746;
+			remoteInfo = "Time Good Wasted";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB3E989820C41CA600C34746 /* Time Good Wasted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Good Wasted.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3E989B20C41CA600C34746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB3E989D20C41CA600C34746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB3E989F20C41CA600C34746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB3E98A220C41CA600C34746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB3E98A420C41CA600C34746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3E98A520C41CA600C34746 /* Time_Good_Wasted.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Time_Good_Wasted.entitlements; sourceTree = "<group>"; };
+		AB3E98AA20C41CA600C34746 /* Time Good WastedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Good WastedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3E98AE20C41CA600C34746 /* Time_Good_WastedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Good_WastedTests.swift; sourceTree = "<group>"; };
+		AB3E98B020C41CA600C34746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB3E98B520C41CA600C34746 /* Time Good WastedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time Good WastedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3E98B920C41CA600C34746 /* Time_Good_WastedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Good_WastedUITests.swift; sourceTree = "<group>"; };
+		AB3E98BB20C41CA600C34746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3E989520C41CA600C34746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E98A720C41CA600C34746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E98B220C41CA600C34746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB3E988F20C41CA500C34746 = {
+			isa = PBXGroup;
+			children = (
+				AB3E989A20C41CA600C34746 /* Time Good Wasted */,
+				AB3E98AD20C41CA600C34746 /* Time Good WastedTests */,
+				AB3E98B820C41CA600C34746 /* Time Good WastedUITests */,
+				AB3E989920C41CA600C34746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3E989920C41CA600C34746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E989820C41CA600C34746 /* Time Good Wasted.app */,
+				AB3E98AA20C41CA600C34746 /* Time Good WastedTests.xctest */,
+				AB3E98B520C41CA600C34746 /* Time Good WastedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3E989A20C41CA600C34746 /* Time Good Wasted */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E989B20C41CA600C34746 /* AppDelegate.swift */,
+				AB3E989D20C41CA600C34746 /* ViewController.swift */,
+				AB3E989F20C41CA600C34746 /* Assets.xcassets */,
+				AB3E98A120C41CA600C34746 /* Main.storyboard */,
+				AB3E98A420C41CA600C34746 /* Info.plist */,
+				AB3E98A520C41CA600C34746 /* Time_Good_Wasted.entitlements */,
+			);
+			path = "Time Good Wasted";
+			sourceTree = "<group>";
+		};
+		AB3E98AD20C41CA600C34746 /* Time Good WastedTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E98AE20C41CA600C34746 /* Time_Good_WastedTests.swift */,
+				AB3E98B020C41CA600C34746 /* Info.plist */,
+			);
+			path = "Time Good WastedTests";
+			sourceTree = "<group>";
+		};
+		AB3E98B820C41CA600C34746 /* Time Good WastedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E98B920C41CA600C34746 /* Time_Good_WastedUITests.swift */,
+				AB3E98BB20C41CA600C34746 /* Info.plist */,
+			);
+			path = "Time Good WastedUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3E989720C41CA600C34746 /* Time Good Wasted */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E98BE20C41CA600C34746 /* Build configuration list for PBXNativeTarget "Time Good Wasted" */;
+			buildPhases = (
+				AB3E989420C41CA600C34746 /* Sources */,
+				AB3E989520C41CA600C34746 /* Frameworks */,
+				AB3E989620C41CA600C34746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Good Wasted";
+			productName = "Time Good Wasted";
+			productReference = AB3E989820C41CA600C34746 /* Time Good Wasted.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3E98A920C41CA600C34746 /* Time Good WastedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E98C120C41CA600C34746 /* Build configuration list for PBXNativeTarget "Time Good WastedTests" */;
+			buildPhases = (
+				AB3E98A620C41CA600C34746 /* Sources */,
+				AB3E98A720C41CA600C34746 /* Frameworks */,
+				AB3E98A820C41CA600C34746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3E98AC20C41CA600C34746 /* PBXTargetDependency */,
+			);
+			name = "Time Good WastedTests";
+			productName = "Time Good WastedTests";
+			productReference = AB3E98AA20C41CA600C34746 /* Time Good WastedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB3E98B420C41CA600C34746 /* Time Good WastedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3E98C420C41CA600C34746 /* Build configuration list for PBXNativeTarget "Time Good WastedUITests" */;
+			buildPhases = (
+				AB3E98B120C41CA600C34746 /* Sources */,
+				AB3E98B220C41CA600C34746 /* Frameworks */,
+				AB3E98B320C41CA600C34746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3E98B720C41CA600C34746 /* PBXTargetDependency */,
+			);
+			name = "Time Good WastedUITests";
+			productName = "Time Good WastedUITests";
+			productReference = AB3E98B520C41CA600C34746 /* Time Good WastedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3E989020C41CA500C34746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Patrick Haller";
+				TargetAttributes = {
+					AB3E989720C41CA600C34746 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB3E98A920C41CA600C34746 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB3E989720C41CA600C34746;
+					};
+					AB3E98B420C41CA600C34746 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB3E989720C41CA600C34746;
+					};
+				};
+			};
+			buildConfigurationList = AB3E989320C41CA500C34746 /* Build configuration list for PBXProject "Time Good Wasted" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3E988F20C41CA500C34746;
+			productRefGroup = AB3E989920C41CA600C34746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3E989720C41CA600C34746 /* Time Good Wasted */,
+				AB3E98A920C41CA600C34746 /* Time Good WastedTests */,
+				AB3E98B420C41CA600C34746 /* Time Good WastedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3E989620C41CA600C34746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E98A020C41CA600C34746 /* Assets.xcassets in Resources */,
+				AB3E98A320C41CA600C34746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E98A820C41CA600C34746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E98B320C41CA600C34746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3E989420C41CA600C34746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E989E20C41CA600C34746 /* ViewController.swift in Sources */,
+				AB3E989C20C41CA600C34746 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E98A620C41CA600C34746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E98AF20C41CA600C34746 /* Time_Good_WastedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3E98B120C41CA600C34746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3E98BA20C41CA600C34746 /* Time_Good_WastedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3E98AC20C41CA600C34746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3E989720C41CA600C34746 /* Time Good Wasted */;
+			targetProxy = AB3E98AB20C41CA600C34746 /* PBXContainerItemProxy */;
+		};
+		AB3E98B720C41CA600C34746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3E989720C41CA600C34746 /* Time Good Wasted */;
+			targetProxy = AB3E98B620C41CA600C34746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB3E98A120C41CA600C34746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3E98A220C41CA600C34746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3E98BC20C41CA600C34746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB3E98BD20C41CA600C34746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AB3E98BF20C41CA600C34746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Time Good Wasted/Time_Good_Wasted.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = "Time Good Wasted/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickhaller.Time-Good-Wasted";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		AB3E98C020C41CA600C34746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Time Good Wasted/Time_Good_Wasted.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = "Time Good Wasted/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickhaller.Time-Good-Wasted";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		AB3E98C220C41CA600C34746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = "Time Good WastedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickhaller.Time-Good-WastedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Good Wasted.app/Contents/MacOS/Time Good Wasted";
+			};
+			name = Debug;
+		};
+		AB3E98C320C41CA600C34746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = "Time Good WastedTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickhaller.Time-Good-WastedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Good Wasted.app/Contents/MacOS/Time Good Wasted";
+			};
+			name = Release;
+		};
+		AB3E98C520C41CA600C34746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = "Time Good WastedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickhaller.Time-Good-WastedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Time Good Wasted";
+			};
+			name = Debug;
+		};
+		AB3E98C620C41CA600C34746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8V7JRPRFFN;
+				INFOPLIST_FILE = "Time Good WastedUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickhaller.Time-Good-WastedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Time Good Wasted";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3E989320C41CA500C34746 /* Build configuration list for PBXProject "Time Good Wasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E98BC20C41CA600C34746 /* Debug */,
+				AB3E98BD20C41CA600C34746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3E98BE20C41CA600C34746 /* Build configuration list for PBXNativeTarget "Time Good Wasted" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E98BF20C41CA600C34746 /* Debug */,
+				AB3E98C020C41CA600C34746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3E98C120C41CA600C34746 /* Build configuration list for PBXNativeTarget "Time Good WastedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E98C220C41CA600C34746 /* Debug */,
+				AB3E98C320C41CA600C34746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3E98C420C41CA600C34746 /* Build configuration list for PBXNativeTarget "Time Good WastedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3E98C520C41CA600C34746 /* Debug */,
+				AB3E98C620C41CA600C34746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3E989020C41CA500C34746 /* Project object */;
+}
